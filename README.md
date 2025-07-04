@@ -20,3 +20,5 @@
 4. 使用SSH协议进行Git操作:
 在克隆仓库时, 选择 SSH 协议的clone地址, 例如 git@github.com:username/repository.git 。
 在使用 git clone, git pull, git push 等命令时, Git会使用SSH协议进行认证和数据传输。
+
+## add pad access by ssh
