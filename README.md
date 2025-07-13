@@ -2,9 +2,10 @@
 ## init config
 
 1. 生成SSH Key:
-打开Git Bash (或终端), 输入 ssh-keygen -t rsa -b 4096 -C "your_email@example.com". 其中, your_email@example.com 替换为你自己的GitHub邮箱地址。
-连续按三次回车键, 使用默认设置生成密钥对。
-生成的私钥文件( id_rsa ) 和公钥文件( id_rsa.pub ) 会保存在 ~/.ssh 目录下。
+    client,input: ssh-keygen -t rsa -b 4096 -C "your_email@example.com".
+    instead your_email@example.com as your 的GitHub mail box address。
+    press enter 3 times,use default setting。
+    the id_rsa and id_rsa.pub will save at ~/.ssh。
 2. 将公钥添加到GitHub:
 打开 id_rsa.pub 文件, 复制其中的内容。
 登录GitHub, 点击右上角头像, 选择"Settings"。
