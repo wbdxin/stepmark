@@ -1,7 +1,9 @@
-# stepmark
-## 预备环境:  
-- 注册github账号
-- 本机安装git,ssh,vim
+# Stepmark
+### 预备环境:  
+``` 注册github账号  
+
+``` 本机安装git,ssh,vim  
+
 ## 初始配置  
  
 1. 生成SSH Key:  
