@@ -1,18 +1,14 @@
 # Stepmark
 ### 预备环境:  
-``` 注册github账号  
-
-``` 本机安装git,ssh,vim  
+&nbsp;&nbsp;注册github账号  
+&nbsp;&nbsp;本机安装git,ssh,vim  
 
 ## 初始配置  
  
-1. 生成SSH Key:  
- 
-    客户端执行:ssh-keygen -t rsa -b 4096 -C "your_email@example.com".  
-
-      使用你的邮箱地址代替your_email@example.com  
-
-      按3次回车,使用默认设置  
+生成SSH Key:  
+&nbsp;&nbsp;客户端执行:ssh-keygen -t rsa -b 4096 -C "your_email@example.com".  
+&nbsp;&nbsp;使用你的邮箱地址代替your_email@example.com  
+&nbsp;&nbsp;按3次回车,使用默认设置  
 
     the id_rsa and id_rsa.pub will save at ~/.ssh。
 2. 将公钥添加到GitHub:
