@@ -1,11 +1,11 @@
 # stepmark
-预备环境:  
+## 预备环境:  
 - 注册github账号
 - 本机安装git,ssh,vim
-## init config
-
-1. 生成SSH Key:
-    client,input: ssh-keygen -t rsa -b 4096 -C "your_email@example.com".
+## 初始配置  
+ 
+1. 生成SSH Key:  
+    客户端执行:ssh-keygen -t rsa -b 4096 -C "your_email@example.com".  
     instead your_email@example.com as your 的GitHub mail box address。
     press enter 3 times,use default setting。
     the id_rsa and id_rsa.pub will save at ~/.ssh。
