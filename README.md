@@ -23,7 +23,11 @@
 - 如果提示 Hi username! You've successfully authenticated, but GitHub does not provide shell access. , 则表示连接成功。( username 是你的GitHub用户名)
 - 如果提示需要输入密码或连接失败, 则需要检查步骤1和步骤2, 确保公钥正确添加到GitHub, 并且私钥没有泄露。
 ### 使用SSH协议进行Git操作:
-- 在克隆仓库时, 选择 SSH 协议的clone地址, 例如 git@github.com:username/repository.git 
-- 在使用 git clone, git pull, git push 等命令时, Git会使用SSH协议进行认证和数据传输
-
+- 在github创建库,并获取ssh协议链接，例如:git@github.com:username/stepmark.git
+- 在客户端执行git clone git@github.com:username/stepmark.git
+- 在不同客户端编辑文件前，先执行git pul，从githuhb拉取最新内容
+- 编辑需要的文件
+- 执行git add . 将变更加到本地
+- 执行git commit -m "comment" 将变更进行提交
+- 执行git push 使提交的变更生效 
 ## add pad access by ssh
