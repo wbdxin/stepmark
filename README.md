@@ -25,7 +25,7 @@
 ### 使用SSH协议进行Git操作:
 - 在github创建库,并获取ssh协议链接，例如:git@github.com:username/stepmark.git
 - 在客户端执行git clone git@github.com:username/stepmark.git
-- 在不同客户端编辑文件前，先执行git pul，从githuhb拉取最新内容
+- 在不同客户端编辑文件前，先执行git pull，从github拉取最新内容
 - 编辑需要的文件
 - 执行git add . 将变更加到本地
 - 执行git commit -m "comment" 将变更进行提交
